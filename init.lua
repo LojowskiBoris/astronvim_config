@@ -26,8 +26,7 @@ local config = {
         },
 
         -- Set colorscheme to use
-        -- colorscheme = "default_theme",
-        colorscheme = "gruvbox",
+        colorscheme = "default_theme",
 
         -- Add highlight groups in any theme
         highlights = {
@@ -145,7 +144,7 @@ local config = {
                 formatting = {
                         -- control auto formatting on save
                         format_on_save = {
-                                enabled = true, -- enable or disable format on save globally
+                                enabled = false, -- enable or disable format on save globally
                                 allow_filetypes = { -- enable format on save for specified filetypes only
                                         -- "go",
                                 },
