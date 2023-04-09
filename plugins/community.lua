@@ -5,9 +5,9 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   { import = "astrocommunity.colorscheme.catppuccin" },
-  {
-    import = "astrocommunity.syntax.vim-sandwich",
-  },
+  -- {
+  --   import = "astrocommunity.syntax.vim-sandwich",
+  -- },
   {
     import = "astrocommunity.editing-support.todo-comments-nvim",
   },
