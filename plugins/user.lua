@@ -23,14 +23,12 @@ return {
     }, neotest_ns)
     require("neotest").setup {
       adapters = {
-        require "neotest-rust",
         require "neotest-jest",
       },
     }
   end,
   ft = { "rust", "jest" },
   dependencies = {
-    "rouge8/neotest-rust",
     "nvim-neotest/neotest-jest",
   },
 }
