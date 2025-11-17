@@ -1,3 +1,7 @@
+if true then return {
+  { "wakatime/vim-wakatime", event = "User AstroFile", lazy = false },
+} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+
 return {
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
